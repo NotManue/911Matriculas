@@ -6,7 +6,7 @@ import logging
 import math as math
 from datetime import datetime
 
-Ruta = r'C:\Users\Usuario\Desktop\911Matriculas\Bases_de_Datos'
+Ruta = r'C:\Users\Usuario\Desktop\911Matriculas\Bases_de_Datos' 
 
 # Log
 
@@ -46,7 +46,6 @@ RutaMallaCurricular = os.path.join(Ruta, "Materias_Semestre_Creditos.xlsx")
 
 MallaCurricular = pd.read_excel(RutaMallaCurricular)
 logging.info(f"Archivo de la malla curricular leído: {RutaMallaCurricular}")
-
 
 # Creacion de codigos de asignatura (6 caracteres maximo)
 
